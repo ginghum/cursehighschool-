@@ -17,6 +17,10 @@ byId('font-small').addEventListener('click', () => changeFont(-2));
 byId('font-large').addEventListener('click', () => changeFont(2));
 applyFont();
 function chapterLink(id) { return `#chapter=${encodeURIComponent(id)}`; }
+function chapterLabel(index) {
+  if (chapters[index].kind === 'prologue') return '序章';
+  return `第${chapters.slice(0, index + 1).filter(chapter => chapter.kind !== 'prologue').length}話`;
+}
 function showRoute(focus = false) {
   let id = '';
   try { if (location.hash.startsWith('#chapter=')) id = decodeURIComponent(location.hash.slice(9)); } catch {}
@@ -31,7 +35,7 @@ function showRoute(focus = false) {
   }
   const chapter = chapters[index];
   document.title = `${chapter.title}｜カス高`;
-  byId('chapter-label').textContent = `第${index + 1}話`;
+  byId('chapter-label').textContent = chapterLabel(index);
   byId('chapter-title').textContent = chapter.title;
   const paragraphs = chapter.body.replace(/\r\n?/g, '\n').split(/\n[\t ]*\n/);
   byId('chapter-text').replaceChildren(...paragraphs.map(text => {
@@ -59,7 +63,7 @@ async function load() {
     byId('chapter-list').replaceChildren(...chapters.map((chapter, index) => {
       const li = document.createElement('li'); const a = document.createElement('a');
       a.href = chapterLink(chapter.id);
-      for (const [className, text] of [['chapter-number', `第${index + 1}話`], ['chapter-name', chapter.title], ['chapter-arrow', '→']]) {
+      for (const [className, text] of [['chapter-number', chapterLabel(index)], ['chapter-name', chapter.title], ['chapter-arrow', '→']]) {
         const span = document.createElement('span'); span.className = className; span.textContent = text;
         if (className === 'chapter-arrow') span.setAttribute('aria-hidden', 'true');
         a.append(span);
