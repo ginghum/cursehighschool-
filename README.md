@@ -24,7 +24,7 @@ GitHubで `stories.json` を編集し、`chapters` に以下の形式で追加�
 
 ## 公開設定
 
-GitHub PagesのSourceは **GitHub Actions** です。初回のPages有効化が権限不足で失敗した場合は、リポジトリの Settings → Pages → Source で GitHub Actions を選び、Actionsの失敗した実行を再実行してください。
+GitHub PagesのSourceは **Deploy from a branch**、Branchは **main**、Folderは **/ (root)** です。mainへの変更が自動公開されます。
 
 ## ローカル確認
 
