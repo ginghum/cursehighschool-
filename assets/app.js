@@ -16,6 +16,7 @@ function changeFont(delta) {
 byId('font-small').addEventListener('click', () => changeFont(-2));
 byId('font-large').addEventListener('click', () => changeFont(2));
 applyFont();
+function characterCount(body) { return Array.from(body.replace(/\s/g, '')).length; }
 function chapterLink(id) { return `#chapter=${encodeURIComponent(id)}`; }
 function chapterLabel(index) {
   if (chapters[index].kind === 'prologue') return '序章';
@@ -37,6 +38,8 @@ function showRoute(focus = false) {
   document.title = `${chapter.title}｜カス高`;
   byId('chapter-label').textContent = chapterLabel(index);
   byId('chapter-title').textContent = chapter.title;
+  const countLabel = byId('chapter-character-count');
+  if (countLabel) countLabel.textContent = `本文 ${characterCount(chapter.body).toLocaleString('ja-JP')}字`;
   const paragraphs = chapter.body.replace(/\r\n?/g, '\n').split(/\n[\t ]*\n/);
   byId('chapter-text').replaceChildren(...paragraphs.map(text => {
     const p = document.createElement('p'); p.textContent = text; return p;
