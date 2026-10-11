@@ -4,3 +4,5 @@
 .chapter-character-count{margin:12px 0 0;color:var(--muted);font-size:12px;line-height:1.6;font-variant-numeric:tabular-nums;letter-spacing:.03em}
 
 .site-header{flex-wrap:wrap}.site-links{margin-left:auto;font-size:13px;line-height:1.8}@media(max-width:600px){.site-links{flex-basis:100%;margin-left:0;font-size:12px}}
+
+.reader-tools{flex-wrap:wrap;gap:16px}.reader-settings{display:flex;flex-wrap:wrap;justify-content:flex-end;align-items:center;gap:16px}.speaker-setting{display:inline-flex;align-items:center;gap:7px;cursor:pointer;white-space:nowrap}.speaker-setting input{margin:0;width:16px;height:16px;accent-color:#656a55}.speaker-setting input:focus-visible{outline:2px solid #656a55;outline-offset:4px}.story.hide-speaker-names .speaker-name{display:none}@media(max-width:380px){.reader-settings{gap:10px}}
