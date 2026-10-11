@@ -34,7 +34,7 @@
     ],
     "chapter1-episode3": [
       {
-        "src": "assets/illustrations/episode03-a.webp",
+        "src": "assets/illustrations/episode03-a-v2.webp",
         "alt": "コンケとの初戦",
         "after": "コンケ「何だよ。相談会？　次で終わりなら、こっちもちゃんと終わらせてやる」",
         "width": 1536,
@@ -217,7 +217,7 @@
         "height": 1024
       },
       {
-        "src": "assets/illustrations/episode14-b.webp",
+        "src": "assets/illustrations/episode14-b-v2.webp",
         "alt": "同じ部屋の明かり",
         "after": "誰も星を出さずに、その夜は続いていた。",
         "width": 1536,
@@ -313,7 +313,7 @@
         "height": 1024
       },
       {
-        "src": "assets/illustrations/episode20-b.webp",
+        "src": "assets/illustrations/episode20-b-v2.webp",
         "alt": "今度は行き先を聞ける",
         "after": "Xは、目を閉じた。\n　意識を失ったのではなかった。\n　歩く足音を聞いていた。\n　担架を運ぶ足。\n　隣を歩く足。\n　後ろからついてくる足。\n　誰も消えず、同じ道を進んでいた。",
         "width": 1536,
