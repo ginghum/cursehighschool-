@@ -20,7 +20,8 @@ function characterCount(body) { return Array.from(body.replace(/\s/g, '')).lengt
 function chapterLink(id) { return `#chapter=${encodeURIComponent(id)}`; }
 function chapterLabel(index) {
   if (chapters[index].kind === 'prologue') return '序章';
-  return `第${chapters.slice(0, index + 1).filter(chapter => chapter.kind !== 'prologue').length}話`;
+  if (chapters[index].kind === 'extra') return `おまけ${chapters.slice(0, index + 1).filter(chapter => chapter.kind === 'extra').length}`;
+  return `第${chapters.slice(0, index + 1).filter(chapter => chapter.kind !== 'prologue' && chapter.kind !== 'extra').length}話`;
 }
 function showRoute(focus = false) {
   let id = '';
@@ -73,7 +74,9 @@ async function load() {
       }
       li.append(a); return li;
     }));
-    byId('chapter-count').textContent = chapters.length ? `全${chapters.length}話` : '';
+    const extras = chapters.filter(chapter => chapter.kind === 'extra').length;
+    const mainCount = chapters.length - extras;
+    byId('chapter-count').textContent = chapters.length ? `全${mainCount}話${extras ? `＋おまけ${extras}話` : ''}` : '';
     byId('status').hidden = chapters.length > 0;
     byId('status').textContent = '本文はまだありません。';
     showRoute();
