@@ -2,6 +2,35 @@
 const byId = (id) => document.getElementById(id);
 let chapters = [];
 let fontSize = 18;
+let showSpeakerNames = true;
+try { showSpeakerNames = localStorage.getItem('kasuko-story-speaker-names') !== 'off'; } catch {}
+function applySpeakerNames() {
+  byId('chapter-text').classList.toggle('hide-speaker-names', !showSpeakerNames);
+  const control = byId('speaker-names');
+  if (control) control.checked = showSpeakerNames;
+}
+byId('speaker-names')?.addEventListener('change', (event) => {
+  showSpeakerNames = event.target.checked;
+  applySpeakerNames();
+  try { localStorage.setItem('kasuko-story-speaker-names', showSpeakerNames ? 'on' : 'off'); } catch {}
+});
+applySpeakerNames();
+function renderParagraph(text) {
+  const p = document.createElement('p');
+  text.split('\n').forEach((line, index) => {
+    if (index) p.append(document.createTextNode('\n'));
+    const dialogue = line.match(/^([^\s「『」』]+)([「『].*)$/u);
+    if (dialogue) {
+      const name = document.createElement('span');
+      name.className = 'speaker-name';
+      name.textContent = dialogue[1];
+      p.append(name, document.createTextNode(dialogue[2]));
+    } else {
+      p.append(document.createTextNode(line));
+    }
+  });
+  return p;
+}
 try { const saved = Number(localStorage.getItem('kasuko-story-font')); if (saved >= 16 && saved <= 24) fontSize = saved; } catch {}
 function applyFont() {
   document.documentElement.style.setProperty('--story-size', `${fontSize}px`);
@@ -42,9 +71,7 @@ function showRoute(focus = false) {
   const countLabel = byId('chapter-character-count');
   if (countLabel) countLabel.textContent = `本文 ${characterCount(chapter.body).toLocaleString('ja-JP')}字`;
   const paragraphs = chapter.body.replace(/\r\n?/g, '\n').split(/\n[\t ]*\n/);
-  byId('chapter-text').replaceChildren(...paragraphs.map(text => {
-    const p = document.createElement('p'); p.textContent = text; return p;
-  }));
+  byId('chapter-text').replaceChildren(...paragraphs.map(renderParagraph));
   for (const [button, target] of [['previous', index - 1], ['next', index + 1]]) {
     const link = byId(button);
     if (chapters[target]) { link.href = chapterLink(chapters[target].id); link.removeAttribute('aria-disabled'); }
