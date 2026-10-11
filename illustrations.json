@@ -9,9 +9,16 @@
         "height": 1024
       },
       {
+        "src": "assets/illustrations/episode01-c.webp",
+        "alt": "難しい授業と三人の机",
+        "after": "分からないところには、答えてくれる。試験を受けるかどうかは、答えてくれない。プラスは教えられたところを丸で囲んだ。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
         "src": "assets/illustrations/episode01-b.webp",
         "alt": "廊下の紙束",
-        "after": "扉の隙間から、紙と木の匂いがした。\n　外の賑やかさが、一枚の扉の向こうで薄くなる。プラスは手帳を確かめ、知らない午後へ、一歩踏み出した。",
+        "after": "プラス「おお。知ってる」\nユージ「知ってる、の中身が大分よくねえんだよ」",
         "width": 1536,
         "height": 1024
       }
@@ -25,6 +32,20 @@
         "height": 1024
       },
       {
+        "src": "assets/illustrations/episode02-c.webp",
+        "alt": "夕陽新聞を売るバルー",
+        "after": "購買の中へ向かう別の生徒が、バルーに手を振った。バルーはその相手へ新聞を一部渡し、プラスへも手を振った。話している間に、客がひとり増えていた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode02-d.webp",
+        "alt": "中庭のヒカルと逃げるユージ",
+        "after": "友達に会いに来たつもりが、部長の伝言を預かる形になった。プラスは返事を保留したまま、別の部員へ小さく手を上げた。その部員は、ヒカルを一度見てから、控えめに手を振り返した。華やかな衣装の中庭を出た後も、プラスには、その一拍が残った。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
         "src": "assets/illustrations/episode02-b.webp",
         "alt": "オタクサークルの姫",
         "after": "ランスが、深く息を吐いた。\n　プラスは笑わなかった。\n　からかえば楽しいかもしれない。\n　ここでさらに困らせたら、聞きたかったことまで聞けなくなる気がした。",
@@ -34,9 +55,16 @@
     ],
     "chapter1-episode3": [
       {
-        "src": "assets/illustrations/episode03-a-v2.webp",
-        "alt": "コンケとの初戦",
-        "after": "コンケ「何だよ。相談会？　次で終わりなら、こっちもちゃんと終わらせてやる」",
+        "src": "assets/illustrations/episode03-a-r3.webp",
+        "alt": "右拳を防御の上から当てるプラス",
+        "after": "プラスは、ようやく息を吐いた。\n　勝ったかどうかより、終わったことが先に分かった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode03-c.webp",
+        "alt": "右腕の処置を受けるプラス",
+        "after": "寮の入口へ着いた。\n　扉は、昨日と同じように鳴った。\n　階段では、ランスが先を歩いた。\n　プラスが手すりへ手を置くと、ユージが、右は使うな、と言った。何度も言われているのに、身体は先に右を使おうとする。\n　プラスは左手へ変えた。",
         "width": 1536,
         "height": 1024
       },
@@ -50,31 +78,45 @@
     ],
     "chapter1-episode4": [
       {
-        "src": "assets/illustrations/episode04-a.webp",
+        "src": "assets/illustrations/episode04-a-r3.webp",
         "alt": "朝の足運び",
         "after": "ユージは時計を見た。\n　まだ、学校には間に合う。\n　もう一度だけ、と言う前に、今度は自分からふたりへ近づいた。",
         "width": 1536,
         "height": 1024
       },
       {
-        "src": "assets/illustrations/episode04-b.webp",
+        "src": "assets/illustrations/episode04-b-r3.webp",
         "alt": "夕陽新聞の取材",
         "after": "言ってから、少しだけ考えた。\n　自分のことを、自分が知らない。\n　記事にならなくても、最初からそうだった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode04-c.webp",
+        "alt": "紙面を支えるチックとモルペウス",
+        "after": "プラスは、肩の力を少し抜いた。\n　いきなり学園中へ読ませたい話ではない。けれど、誰にも言わなければ、誰も答えてくれない。この五人に話していいかどうかは、まだ全部分からない。少なくとも、チックの問いは、先に自分のためになった。",
         "width": 1536,
         "height": 1024
       }
     ],
     "chapter1-episode5": [
       {
-        "src": "assets/illustrations/episode05-a.webp",
-        "alt": "マークを追う決闘",
+        "src": "assets/illustrations/episode05-c.webp",
+        "alt": "決闘前の受付でダイと並ぶ",
+        "after": "プラスも座った。\n　左手を握る。\n　すぐに開いた。\n　今からずっと力を入れていたら、始まる前に疲れそうだった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode05-a-r3.webp",
+        "alt": "右腕を守りながらダイを追うプラス",
         "after": "瞬間移動の仕組みは、分かった。\n　仕組みが分かれば勝てると、少し思った。ダイは、その仕組みだけで戦ってはいなかった。",
         "width": 1536,
         "height": 1024
       },
       {
-        "src": "assets/illustrations/episode05-b.webp",
-        "alt": "初めて失った星",
+        "src": "assets/illustrations/episode05-b-r3.webp",
+        "alt": "ダイに左手を借りて起き上がるプラス",
         "after": "プラスの初めての試合は、終わった。\n　闘技場の試合は、まだ続く。",
         "width": 1536,
         "height": 1024
@@ -82,14 +124,21 @@
     ],
     "chapter1-episode6": [
       {
-        "src": "assets/illustrations/episode06-a.webp",
+        "src": "assets/illustrations/episode06-a-r3.webp",
         "alt": "ユージの病室",
         "after": "ユージ「俺も、嫌だって言いたかった」",
         "width": 1536,
         "height": 1024
       },
       {
-        "src": "assets/illustrations/episode06-b.webp",
+        "src": "assets/illustrations/episode06-c.webp",
+        "alt": "病室で確かめるユージの契約",
+        "after": "ユージの口元が、わずかに緩んだ。\n　それ以上、言葉は続かなかった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode06-b-r3.webp",
         "alt": "眠れない夜の練習",
         "after": "ランス「あと少し。終わりの時間は守るぞ」\nプラス「うん」",
         "width": 1536,
@@ -98,14 +147,21 @@
     ],
     "chapter1-episode7": [
       {
-        "src": "assets/illustrations/episode07-a.webp",
+        "src": "assets/illustrations/episode07-c.webp",
+        "alt": "ヒカルへ代理決闘を申し込む",
+        "after": "ヒカルは、近くにいる部員へ声をかけた。\n　少し予定を変える。\n　それだけの調子だった。\n　プラスはランスと中庭を出た。\n　背中の方で、見物していた誰かが二人の名前を聞いている。\n　話はもう、周りへ広がり始めていた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode07-a-r3.webp",
         "alt": "鞭から引き戻す腕",
         "after": "プラスは、拳を引いた。\n　軽くすれば動かしやすい。だが、当てるだけでは倒せない。\n　昨日はランスへ触れたことを喜んだ。\n　今は、その先へつなぐ必要があった。",
         "width": 1536,
         "height": 1024
       },
       {
-        "src": "assets/illustrations/episode07-b.webp",
+        "src": "assets/illustrations/episode07-b-r3.webp",
         "alt": "勝利のあと",
         "after": "プラスが笑った。\n　ユージは、その顔へ目を向けた。\n　今度は、笑い返せた。",
         "width": 1536,
@@ -113,6 +169,13 @@
       }
     ],
     "chapter1-episode8": [
+      {
+        "src": "assets/illustrations/episode08-c.webp",
+        "alt": "医療ポッドで治った朝",
+        "after": "ユージの声が廊下へ響き、保健委員が二人を見て笑った。\n　プラスも笑った。\n　笑うと脇腹が痛む、ということも、今日はなかった。",
+        "width": 1536,
+        "height": 1024
+      },
       {
         "src": "assets/illustrations/episode08-a.webp",
         "alt": "購買前のコンケ",
@@ -129,6 +192,13 @@
       }
     ],
     "chapter1-episode9": [
+      {
+        "src": "assets/illustrations/episode09-c.webp",
+        "alt": "部長室のグモンとコンケ",
+        "after": "グモンは、それ以上聞かなかった。\n　パンをもうひと口かじる。\n　コンケは、机の脇に立ったまま、廊下で言われたことを思い出した。\n　また使いっ走りか。\n　好きだねえ。\n　何が好きなのかまで、あいつらは聞かない。聞いたところで、わかるとも思っていなかった。",
+        "width": 1536,
+        "height": 1024
+      },
       {
         "src": "assets/illustrations/episode09-a.webp",
         "alt": "カラフルな紅茶",
@@ -149,6 +219,13 @@
         "src": "assets/illustrations/episode10-a.webp",
         "alt": "動き出す背中",
         "after": "返事はなかった。\n　続けて殴るつもりも、なかった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode10-c.webp",
+        "alt": "旧校舎でぶつかるオーガとヒカル",
+        "after": "真面目な顔だった。\n　グモンは、少しだけ鼻から息を出した。\n　オーガは、その顔を一度見た。\n　それ以上は、何も言わずに部長室へ向かった。",
         "width": 1536,
         "height": 1024
       },
@@ -174,9 +251,23 @@
         "after": "感想会の机へ戻りかけていたコバルだけが、しばらく、こちらを見ていた。",
         "width": 1536,
         "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode11-c.webp",
+        "alt": "片づけの中でランスへ話しかけるコバル",
+        "after": "ポケットの上で、ランスの手が止まった。\n　午後の終わりの光が、二人の間へ差していた。",
+        "width": 1536,
+        "height": 1024
       }
     ],
     "chapter1-episode12": [
+      {
+        "src": "assets/illustrations/episode12-c.webp",
+        "alt": "ランスとコバルの決闘手続き",
+        "after": "ランスは、その先に、彼女の笑顔を思い浮かべた。",
+        "width": 1536,
+        "height": 1024
+      },
       {
         "src": "assets/illustrations/episode12-a.webp",
         "alt": "槍とチャージパンチ",
@@ -201,6 +292,13 @@
         "height": 1024
       },
       {
+        "src": "assets/illustrations/episode13-c.webp",
+        "alt": "言葉が届かなかった帰り道",
+        "after": "誰も、勝った試合の話をしなかった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
         "src": "assets/illustrations/episode13-b.webp",
         "alt": "月明かりの練習",
         "after": "ランスなら、もう片方の手も使う。\n　足も、身体も、床へ残した金属も。\n　思いついた一つで、その全部が止まるわけではない。それでも、同じところで押し退けられるだけではなくなった。",
@@ -217,6 +315,13 @@
         "height": 1024
       },
       {
+        "src": "assets/illustrations/episode14-c.webp",
+        "alt": "練習場で話し合う四人",
+        "after": "ランスの口元が、わずかに動いた。\n　プラスは、何の作品かわからなかった。それでも、二人が同じものの話をしていることは、わかった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
         "src": "assets/illustrations/episode14-b-v2.webp",
         "alt": "同じ部屋の明かり",
         "after": "誰も星を出さずに、その夜は続いていた。",
@@ -225,6 +330,13 @@
       }
     ],
     "chapter1-episode15": [
+      {
+        "src": "assets/illustrations/episode15-c.png",
+        "alt": "役員会議へ急ぐX",
+        "after": "Xは、返事の代わりに軽く会釈した。\n　時計を見る。\n　連絡そのものは予定より延びなかったが、回収した紙を確認し、訂正箇所を揃える仕事が残っている。部室へ戻るころには、おやつの時間は過ぎるだろう。\n　ルサイなら、残しておく。\n　そう思い、Xは最後の申請書を手元へ寄せた。",
+        "width": 1536,
+        "height": 1024
+      },
       {
         "src": "assets/illustrations/episode15-a.webp",
         "alt": "勉強サークルへの再訪",
@@ -254,9 +366,23 @@
         "after": "部室を出ると、廊下はいつもと同じだった。遠くで、別のサークルの部員たちが話している。\n　笑い声もした。\n　プラスは、教材を抱え直した。\n　指は、いつもと同じように動いた。",
         "width": 1536,
         "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode16-c.png",
+        "alt": "片づけられる箱とルサイ",
+        "after": "ルサイの靴音が、隣で鳴る。\n　Xは、その音へ歩幅を合わせた。\n　角までの道は、短かった。\n　今日は、その短い道を、一人で歩かなかった。",
+        "width": 1536,
+        "height": 1024
       }
     ],
     "chapter1-episode17": [
+      {
+        "src": "assets/illustrations/episode17-c.png",
+        "alt": "返事のない挨拶",
+        "after": "プラスはうなずいた。\n　今日の紙を出す。\n　間違えたものも、正しかったものも並べた。わからない場所には、昨日よりはっきり印がついていた。",
+        "width": 1536,
+        "height": 1024
+      },
       {
         "src": "assets/illustrations/episode17-a.webp",
         "alt": "熱を帯びた教室",
@@ -265,8 +391,8 @@
         "height": 1024
       },
       {
-        "src": "assets/illustrations/episode17-b.webp",
-        "alt": "伸ばした手と約束",
+        "src": "assets/illustrations/episode17-b-r3.webp",
+        "alt": "決闘を迫るXと間へ入るルサイ",
         "after": "今日、教わることは、まだ終わっていなかった。",
         "width": 1536,
         "height": 1024
@@ -281,6 +407,13 @@
         "height": 1024
       },
       {
+        "src": "assets/illustrations/episode18-c.png",
+        "alt": "練習場で待つヤオイとオジョー",
+        "after": "オジョーが、練習区画へ目を向ける。\n　ほかの生徒が使っていない場所を確かめていた。渋々来たという顔のまま、どこなら動けるかをもう見ている。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
         "src": "assets/illustrations/episode18-b.webp",
         "alt": "十五秒の耐久訓練",
         "after": "プラスはうなずいた。\n　十五秒。\n　Xに勝ったわけではない。\n　Xの熱を受けたわけでもない。\n　それでも、今日、自分の身体で確かめた時間だった。",
@@ -289,6 +422,13 @@
       }
     ],
     "chapter1-episode19": [
+      {
+        "src": "assets/illustrations/episode19-c.png",
+        "alt": "決闘条件を読み上げるジャッジ",
+        "after": "開始の声と、熱が重なった。",
+        "width": 1536,
+        "height": 1024
+      },
       {
         "src": "assets/illustrations/episode19-a.webp",
         "alt": "高温の決闘",
@@ -305,6 +445,13 @@
       }
     ],
     "chapter1-episode20": [
+      {
+        "src": "assets/illustrations/episode20-c.png",
+        "alt": "Xへ声を届ける仲間たち",
+        "after": "ルサイ「……立ち上がってくれ、Xくん。一人に戻るためじゃなくて、僕たちのいる方へ」",
+        "width": 1536,
+        "height": 1024
+      },
       {
         "src": "assets/illustrations/episode20-a.webp",
         "alt": "最後の一撃",
@@ -325,6 +472,13 @@
         "src": "assets/illustrations/episode21-a.webp",
         "alt": "生徒会室で明かされる真実",
         "after": "プラスは、顔を上げた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode21-c.png",
+        "alt": "ツキチヨと退出するX",
+        "after": "扉が閉まった。\n　プラスは、握った右手を一度見た。",
         "width": 1536,
         "height": 1024
       },
@@ -352,9 +506,85 @@
         "height": 1024
       },
       {
+        "src": "assets/illustrations/prologue-d.webp",
+        "alt": "寮でランスと出会う",
+        "after": "ランス「何したんだ、お前」\nプラス「ちょっと人助け」\nランス「ちょっと、の範囲を説明しろ」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
         "src": "assets/illustrations/prologue-c.webp",
         "alt": "三人で過ごす寮の夜",
         "after": "考えることがいくつもあった。\n　そのどれもが、明日のことだった。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "extra1": [
+      {
+        "src": "assets/illustrations/extra01-a.png",
+        "alt": "新聞を作り始めたユーヒとチック",
+        "after": "ユーヒ「機械が得意で、頭もよくて、黙って全部直してくれる。最初から最高の相棒だったっす」\nチック「黙ってはいませんでした。直してほしいところは、毎回言っていました」\nユーヒ「でも直してくれたっす」\nチック「その部分だけ、記録に残すんですね……」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/extra01-b.png",
+        "alt": "Xへ取材内容を確かめるユーヒ",
+        "after": "ユーヒは、立った。\n　取材へ来たときより、持ち帰る紙は少なかった。\n　代わりに、部室の外へ続く道が増えた気がした。\n　その道の最初に、Xの厳しい声が置かれていた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/extra01-c.png",
+        "alt": "現在の夕陽新聞編集部",
+        "after": "そのあとで、文字を少し小さくした。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "extra2": [
+      {
+        "src": "assets/illustrations/extra02-a.png",
+        "alt": "オーガの台所へ呼ばれたコンケ",
+        "after": "オーガ「お前、よく呼ばれてるだろ。何を食ってるか、俺より見てるかと思った」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/extra02-b.png",
+        "alt": "ローブを縫い終えるオーガ",
+        "after": "机を見た。\n　使われていない椅子が、何脚かあった。\n　そこにもクッションが載っている。\n　同じ布ではない。\n　同じ人が縫ったのだろうと思える縫い目だけが、揃っていた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/extra02-c.png",
+        "alt": "グモンへ届けられた温かい料理",
+        "after": "しばらくして、グモンの手も動いた。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "extra3": [
+      {
+        "src": "assets/illustrations/extra03-a.png",
+        "alt": "根を凍らせるXとヤオイ",
+        "after": "ヤオイは、自分の温めてもらった手を見た。\n　よく動いた。\n　目の前の男は、自分より休むのが下手そうだった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/extra03-b.png",
+        "alt": "勝った相手と囲むお茶",
+        "after": "ヤオイは、その口の動きを見て、窓へ目を向けた。\n　勝ったあとに立っていたXより、今のXの方が、少しだけ息をしている感じがした。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/extra03-c.png",
+        "alt": "ヤオイを迎えに来たオジョー",
+        "after": "声は、困っているようで、楽しそうだった。",
         "width": 1536,
         "height": 1024
       }
