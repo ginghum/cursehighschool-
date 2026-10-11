@@ -1,6 +1,36 @@
 'use strict';
 const byId = (id) => document.getElementById(id);
 let chapters = [];
+let illustrations = {};
+let showIllustrations = true;
+try { showIllustrations = localStorage.getItem('kasuko-story-illustrations') !== 'off'; } catch {}
+function applyIllustrations() {
+  byId('illustrations').checked = showIllustrations;
+  for (const figure of byId('chapter-text').querySelectorAll('.story-illustration')) {
+    figure.hidden = !showIllustrations;
+    const img = figure.querySelector('img');
+    if (showIllustrations && !img.hasAttribute('src')) img.src = img.dataset.src;
+  }
+}
+byId('illustrations').addEventListener('change', (event) => {
+  showIllustrations = event.target.checked;
+  applyIllustrations();
+  try { localStorage.setItem('kasuko-story-illustrations', showIllustrations ? 'on' : 'off'); } catch {}
+});
+function renderIllustration(item) {
+  const figure = document.createElement('figure');
+  figure.className = 'story-illustration';
+  const img = document.createElement('img');
+  img.dataset.src = item.src;
+  img.alt = item.alt;
+  img.width = item.width;
+  img.height = item.height;
+  img.loading = 'lazy';
+  img.decoding = 'async';
+  img.addEventListener('error', () => { figure.hidden = true; });
+  figure.append(img);
+  return figure;
+}
 let fontSize = 18;
 let showSpeakerNames = true;
 try { showSpeakerNames = localStorage.getItem('kasuko-story-speaker-names') !== 'off'; } catch {}
@@ -71,7 +101,16 @@ function showRoute(focus = false) {
   const countLabel = byId('chapter-character-count');
   if (countLabel) countLabel.textContent = `本文 ${characterCount(chapter.body).toLocaleString('ja-JP')}字`;
   const paragraphs = chapter.body.replace(/\r\n?/g, '\n').split(/\n[\t ]*\n/);
-  byId('chapter-text').replaceChildren(...paragraphs.map(renderParagraph));
+  const nodes = [];
+  const chapterImages = illustrations[chapter.id] || [];
+  for (const paragraph of paragraphs) {
+    nodes.push(renderParagraph(paragraph));
+    for (const item of chapterImages) {
+      if (paragraph.trim() === item.after) nodes.push(renderIllustration(item));
+    }
+  }
+  byId('chapter-text').replaceChildren(...nodes);
+  applyIllustrations();
   for (const [button, target] of [['previous', index - 1], ['next', index + 1]]) {
     const link = byId(button);
     if (chapters[target]) { link.href = chapterLink(chapters[target].id); link.removeAttribute('aria-disabled'); }
@@ -91,6 +130,10 @@ async function load() {
       ids.add(chapter.id); return false;
     })) throw new Error('invalid chapters');
     chapters = data.chapters;
+    try {
+      const imageResponse = await fetch('./illustrations.json', {cache: 'no-cache'});
+      if (imageResponse.ok) illustrations = (await imageResponse.json()).chapters || {};
+    } catch { /* 本文は挿絵データの読み込みに依存しない。 */ }
     byId('chapter-list').replaceChildren(...chapters.map((chapter, index) => {
       const li = document.createElement('li'); const a = document.createElement('a');
       a.href = chapterLink(chapter.id);

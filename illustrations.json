@@ -1,0 +1,363 @@
+{
+  "chapters": {
+    "chapter1-episode1": [
+      {
+        "src": "assets/illustrations/episode01-a.webp",
+        "alt": "遅刻寸前の通学",
+        "after": "前の扉が開く。\n　白衣の人物が入り、教卓へ薄い端末を置いた。プラスは途中だった挨拶を切り上げ、自分の席へ戻った。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode01-b.webp",
+        "alt": "廊下の紙束",
+        "after": "扉の隙間から、紙と木の匂いがした。\n　外の賑やかさが、一枚の扉の向こうで薄くなる。プラスは手帳を確かめ、知らない午後へ、一歩踏み出した。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "chapter1-episode2": [
+      {
+        "src": "assets/illustrations/episode02-a.webp",
+        "alt": "図書館での不合格",
+        "after": "図書館の扉を出ると、遠くで人の笑う声がした。\n　プラスは手帳を確かめ、午後の学園へ歩き出した。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode02-b.webp",
+        "alt": "オタクサークルの姫",
+        "after": "ランスが、深く息を吐いた。\n　プラスは笑わなかった。\n　からかえば楽しいかもしれない。\n　ここでさらに困らせたら、聞きたかったことまで聞けなくなる気がした。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "chapter1-episode3": [
+      {
+        "src": "assets/illustrations/episode03-a.webp",
+        "alt": "コンケとの初戦",
+        "after": "コンケ「何だよ。相談会？　次で終わりなら、こっちもちゃんと終わらせてやる」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode03-b.webp",
+        "alt": "知らない歌の夢",
+        "after": "プラスは、隣へ手を伸ばした。\n　今度は、マイクを渡したかっただけだった。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "chapter1-episode4": [
+      {
+        "src": "assets/illustrations/episode04-a.webp",
+        "alt": "朝の足運び",
+        "after": "ユージは時計を見た。\n　まだ、学校には間に合う。\n　もう一度だけ、と言う前に、今度は自分からふたりへ近づいた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode04-b.webp",
+        "alt": "夕陽新聞の取材",
+        "after": "言ってから、少しだけ考えた。\n　自分のことを、自分が知らない。\n　記事にならなくても、最初からそうだった。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "chapter1-episode5": [
+      {
+        "src": "assets/illustrations/episode05-a.webp",
+        "alt": "マークを追う決闘",
+        "after": "瞬間移動の仕組みは、分かった。\n　仕組みが分かれば勝てると、少し思った。ダイは、その仕組みだけで戦ってはいなかった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode05-b.webp",
+        "alt": "初めて失った星",
+        "after": "プラスの初めての試合は、終わった。\n　闘技場の試合は、まだ続く。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "chapter1-episode6": [
+      {
+        "src": "assets/illustrations/episode06-a.webp",
+        "alt": "ユージの病室",
+        "after": "ユージ「俺も、嫌だって言いたかった」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode06-b.webp",
+        "alt": "眠れない夜の練習",
+        "after": "ランス「あと少し。終わりの時間は守るぞ」\nプラス「うん」",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "chapter1-episode7": [
+      {
+        "src": "assets/illustrations/episode07-a.webp",
+        "alt": "鞭から引き戻す腕",
+        "after": "プラスは、拳を引いた。\n　軽くすれば動かしやすい。だが、当てるだけでは倒せない。\n　昨日はランスへ触れたことを喜んだ。\n　今は、その先へつなぐ必要があった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode07-b.webp",
+        "alt": "勝利のあと",
+        "after": "プラスが笑った。\n　ユージは、その顔へ目を向けた。\n　今度は、笑い返せた。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "chapter1-episode8": [
+      {
+        "src": "assets/illustrations/episode08-a.webp",
+        "alt": "購買前のコンケ",
+        "after": "声は、さっきより低かった。\n　ユージがうなずく。\n　二人は、コンケが曲がった道へ向かった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode08-b.webp",
+        "alt": "旧校舎への潜入",
+        "after": "プラスは口を閉じた。\n　コンケは、もう階段へ向かっていた。\n　二人は、歩く速さを上げた。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "chapter1-episode9": [
+      {
+        "src": "assets/illustrations/episode09-a.webp",
+        "alt": "カラフルな紅茶",
+        "after": "相手は黙った。\n　ユージは、ここではその会話が普通らしいことを、少しずつ理解し始めた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode09-b.webp",
+        "alt": "廊下の因縁",
+        "after": "争いが、廊下へ移った。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "chapter1-episode10": [
+      {
+        "src": "assets/illustrations/episode10-a.webp",
+        "alt": "動き出す背中",
+        "after": "返事はなかった。\n　続けて殴るつもりも、なかった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode10-b.webp",
+        "alt": "大木の下のマイナス",
+        "after": "遠くで、また声が上がった。\n　昼休みの、賑やかな声だった。\n　その中に、怯えた声が混じっていないか、グモンは少しの間、耳を澄ませた。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "chapter1-episode11": [
+      {
+        "src": "assets/illustrations/episode11-a.webp",
+        "alt": "戻ってきたクラスメイト",
+        "after": "プラスは、自分の席へ戻った。\n　振り返ると、コンケはもう教材を読んでいた。\n　机へ足を乗せていない。\n　誰かのものを取ろうともしていない。\n　それだけで、教室の中では、思っていたより普通に見えた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode11-b.webp",
+        "alt": "期待を断れない姫",
+        "after": "感想会の机へ戻りかけていたコバルだけが、しばらく、こちらを見ていた。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "chapter1-episode12": [
+      {
+        "src": "assets/illustrations/episode12-a.webp",
+        "alt": "槍とチャージパンチ",
+        "after": "コバルのローブにも裂け目が増えていた。けれど、呼吸は、ランスほど乱れていない。その右拳へ、さらに強い震えが集まり始めた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode12-b.webp",
+        "alt": "彼女が駆け寄った先",
+        "after": "その音がここまで届くたび、ランスの静かな顔だけが、ますます遠く見えた。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "chapter1-episode13": [
+      {
+        "src": "assets/illustrations/episode13-a.webp",
+        "alt": "届かなかった言葉",
+        "after": "プラスとユージは、ランスを追った。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode13-b.webp",
+        "alt": "月明かりの練習",
+        "after": "ランスなら、もう片方の手も使う。\n　足も、身体も、床へ残した金属も。\n　思いついた一つで、その全部が止まるわけではない。それでも、同じところで押し退けられるだけではなくなった。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "chapter1-episode14": [
+      {
+        "src": "assets/illustrations/episode14-a.webp",
+        "alt": "同室の友との勝負",
+        "after": "闘技場の試合と違い、勝者の名前を遠くへ届ける声はなかった。\n　ただ、二人が、同じ場所に残っていた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode14-b.webp",
+        "alt": "同じ部屋の明かり",
+        "after": "誰も星を出さずに、その夜は続いていた。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "chapter1-episode15": [
+      {
+        "src": "assets/illustrations/episode15-a.webp",
+        "alt": "勉強サークルへの再訪",
+        "after": "最初に扉の前で言っていた、別の日でも、という言葉は出なかった。\n　プラスも、隣で同じ行を見る。\n　自分ではわかった部分だったが、ランスがどこで止まったのかを聞くと、説明の中で見落としていた条件へ気づいた。できた方が、いつも全部わかっているわけではなかった。プラスは、紙の端へその条件を書き足した。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode15-b.webp",
+        "alt": "冷めないおやつ",
+        "after": "プラスは、最後に会釈した。\n　扉が閉まる直前、ルサイがXの机へ飲み物を足しているのが見えた。\n　Xは今度は礼を言った。\n　声は小さかったが、扉のそばまで届いた。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "chapter1-episode16": [
+      {
+        "src": "assets/illustrations/episode16-a.webp",
+        "alt": "残されたノート",
+        "after": "プラスはうなずいた。\n　指でなぞる。\n　求めるものと、与えられたもの。\n　今、紙の上に書いてあることなら、確かめられた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode16-b.webp",
+        "alt": "箱の重さとXの沈黙",
+        "after": "部室を出ると、廊下はいつもと同じだった。遠くで、別のサークルの部員たちが話している。\n　笑い声もした。\n　プラスは、教材を抱え直した。\n　指は、いつもと同じように動いた。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "chapter1-episode17": [
+      {
+        "src": "assets/illustrations/episode17-a.webp",
+        "alt": "熱を帯びた教室",
+        "after": "プラスは、隣の椅子へ座った。\n　Xの前へ質問の紙を置く。\n　ちゃんと聞いてもらえたことに、少し安心した。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode17-b.webp",
+        "alt": "伸ばした手と約束",
+        "after": "今日、教わることは、まだ終わっていなかった。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "chapter1-episode18": [
+      {
+        "src": "assets/illustrations/episode18-a.webp",
+        "alt": "凍った記録",
+        "after": "四人は、紙をまとめた。\n　プラスはノートをいちばん上へ置いた。誰かが見て残したものを、今度は自分たちが使おうとしていた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode18-b.webp",
+        "alt": "十五秒の耐久訓練",
+        "after": "プラスはうなずいた。\n　十五秒。\n　Xに勝ったわけではない。\n　Xの熱を受けたわけでもない。\n　それでも、今日、自分の身体で確かめた時間だった。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "chapter1-episode19": [
+      {
+        "src": "assets/illustrations/episode19-a.webp",
+        "alt": "高温の決闘",
+        "after": "プラスは、返事をする前に動いた。\n　床に手をつかない。焼けた場所へ掌を置けば、立ち直るための手まで傷つく。\n　低く走り、Xから少し離れる。\n　熱を一度受けたから、もう平気になったわけではない。\n　受けた肩は、まだ痛かった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode19-b.webp",
+        "alt": "かつての勉強サークル",
+        "after": "今なら、区別できる。\n　信じてもらえたことと、何にでも勝てることは、同じではなかった。あの頃の僕は、そこに線を引かなかった。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "chapter1-episode20": [
+      {
+        "src": "assets/illustrations/episode20-a.webp",
+        "alt": "最後の一撃",
+        "after": "ジャッジ「勝負あり。勝者、プラス・ゼロ！」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode20-b.webp",
+        "alt": "今度は行き先を聞ける",
+        "after": "Xは、目を閉じた。\n　意識を失ったのではなかった。\n　歩く足音を聞いていた。\n　担架を運ぶ足。\n　隣を歩く足。\n　後ろからついてくる足。\n　誰も消えず、同じ道を進んでいた。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "chapter1-episode21": [
+      {
+        "src": "assets/illustrations/episode21-a.webp",
+        "alt": "生徒会室で明かされる真実",
+        "after": "プラスは、顔を上げた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode21-b.webp",
+        "alt": "城の庭から城下町と海を望む記憶",
+        "after": "光が、強くなった。\n　屋根も、広場も、草の先も、白くなっていく。繋いだ手の感触だけが、最後まで残った。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "prologue": [
+      {
+        "src": "assets/illustrations/prologue-a.webp",
+        "alt": "船から学園を望むプラス",
+        "after": "プラス「よし。よろしくな」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/prologue-b.webp",
+        "alt": "ユージと歩く学園",
+        "after": "ユージが駆け出す。\n　プラスも長い髪を揺らして、その後を追った。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/prologue-c.webp",
+        "alt": "三人で過ごす寮の夜",
+        "after": "考えることがいくつもあった。\n　そのどれもが、明日のことだった。",
+        "width": 1536,
+        "height": 1024
+      }
+    ]
+  }
+}
