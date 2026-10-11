@@ -506,6 +506,13 @@
         "height": 1024
       },
       {
+        "src": "assets/illustrations/prologue-e.png",
+        "alt": "食堂の騒動を止め、プラスの手帳を確認するX",
+        "after": "X「プラス・ゼロ。……なるほど。上から聞いていた転入生というのは、君か」\nプラス「俺のこと知ってんの？」\nX「知らされていた、というだけだよ」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
         "src": "assets/illustrations/prologue-d.webp",
         "alt": "寮でランスと出会う",
         "after": "ランス「何したんだ、お前」\nプラス「ちょっと人助け」\nランス「ちょっと、の範囲を説明しろ」",
