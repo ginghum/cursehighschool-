@@ -332,7 +332,14 @@
     ],
     "chapter1-episode12": [
       {
-        "src": "assets/illustrations/episode12-c.webp",
+        "src": "assets/illustrations/episode12-d.webp",
+        "alt": "ゆきめろの手を掴んで必死に訴えるランスと、驚くゆきめろ",
+        "after": "ランス「ここ、出よう」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode12-c-v2.webp",
         "alt": "ランスとコバルの決闘手続き",
         "after": "ランスは、その先に、彼女の笑顔を思い浮かべた。",
         "width": 1536,
