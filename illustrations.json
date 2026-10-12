@@ -385,6 +385,20 @@
     ],
     "chapter1-episode14": [
       {
+        "src": "assets/illustrations/episode14-d.webp",
+        "alt": "オタクサークルの部室でランスについて相談するプラスとコバル",
+        "after": "コバル「……うん。それを、お願いしたい」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode14-e.webp",
+        "alt": "廊下でランスとの勝負について話すプラスとゆきめろ",
+        "after": "プラス「俺が、ランスと話したいから」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
         "src": "assets/illustrations/episode14-a.webp",
         "alt": "同室の友との勝負",
         "after": "闘技場の試合と違い、勝者の名前を遠くへ届ける声はなかった。\n　ただ、二人が、同じ場所に残っていた。",
