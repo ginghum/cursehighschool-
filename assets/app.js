@@ -78,6 +78,8 @@ applyFont();
 function characterCount(body) { return Array.from(body.replace(/\s/g, '')).length; }
 function chapterLink(id) { return `#chapter=${encodeURIComponent(id)}`; }
 function chapterLabel(index) {
+  const episode = chapters[index].id.match(/^chapter(\d+)-episode(\d+)$/);
+  if (episode && Number(episode[1]) > 1) return `第${episode[1]}章 第${episode[2]}話`;
   if (chapters[index].kind === 'prologue') return '序章';
   if (chapters[index].kind === 'extra') return `おまけ${chapters.slice(0, index + 1).filter(chapter => chapter.kind === 'extra').length}`;
   return `第${chapters.slice(0, index + 1).filter(chapter => chapter.kind !== 'prologue' && chapter.kind !== 'extra').length}話`;
