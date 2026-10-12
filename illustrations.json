@@ -55,6 +55,13 @@
     ],
     "chapter1-episode3": [
       {
+        "src": "assets/illustrations/episode03-d.webp",
+        "alt": "夜の練習場で初めて出会うプラスとコンケ、後ろで警戒するユージとランス",
+        "after": "プラス「俺、プラス。昨日来たんだ」\nコンケ「転校生か。へえ。こいつらに案内してもらってんの？」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
         "src": "assets/illustrations/episode03-a-r3.webp",
         "alt": "右拳を防御の上から当てるプラス",
         "after": "プラスは、ようやく息を吐いた。\n　勝ったかどうかより、終わったことが先に分かった。",
