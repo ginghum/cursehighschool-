@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#faf9f6">
   <title>カス高｜メインストーリー</title>
-  <link rel="stylesheet" href="./assets/style.css?v=illustrations-v1">
-  <script src="./assets/app.js?v=illustrations-v1" defer></script>
+  <link rel="stylesheet" href="./assets/style.css?v=chapter-nav-v2">
+  <script src="./assets/app.js?v=chapter-nav-v2" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">本文へ</a>
@@ -19,6 +19,7 @@
     </section>
     <section id="reader" aria-labelledby="chapter-title" hidden>
       <div class="reader-tools"><a href="#">目次へ</a><div class="reader-settings"><label class="speaker-setting"><input type="checkbox" id="illustrations" aria-controls="chapter-text" checked>挿絵を表示</label><label class="speaker-setting"><input type="checkbox" id="speaker-names" aria-controls="chapter-text" checked>話者名を表示</label><fieldset><legend class="visually-hidden">文字サイズ</legend><button type="button" id="font-small" aria-label="文字を小さく">A−</button><button type="button" id="font-large" aria-label="文字を大きく">A＋</button></fieldset></div></div>
+      <nav class="chapter-nav chapter-nav-top" aria-label="話の移動（上部）"><a id="previous-top">前の話</a><a href="#">目次</a><a id="next-top">次の話</a></nav>
       <div class="chapter-heading"><p id="chapter-label"></p><h1 id="chapter-title" tabindex="-1"></h1><p id="chapter-character-count" class="chapter-character-count" title="本文の文字数（空白・改行を除く）"></p></div>
       <article id="chapter-text" class="story"></article>
       <nav class="chapter-nav" aria-label="話の移動"><a id="previous">前の話</a><a href="#">目次</a><a id="next">次の話</a></nav>

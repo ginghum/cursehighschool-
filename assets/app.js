@@ -111,7 +111,7 @@ function showRoute(focus = false) {
   }
   byId('chapter-text').replaceChildren(...nodes);
   applyIllustrations();
-  for (const [button, target] of [['previous', index - 1], ['next', index + 1]]) {
+  for (const [button, target] of [['previous', index - 1], ['previous-top', index - 1], ['next', index + 1], ['next-top', index + 1]]) {
     const link = byId(button);
     if (chapters[target]) { link.href = chapterLink(chapters[target].id); link.removeAttribute('aria-disabled'); }
     else { link.removeAttribute('href'); link.setAttribute('aria-disabled', 'true'); }
