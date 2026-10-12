@@ -79,10 +79,13 @@ function characterCount(body) { return Array.from(body.replace(/\s/g, '')).lengt
 function chapterLink(id) { return `#chapter=${encodeURIComponent(id)}`; }
 function chapterLabel(index) {
   const episode = chapters[index].id.match(/^chapter(\d+)-episode(\d+)$/);
-  if (episode && Number(episode[1]) > 1) return `第${episode[1]}章 第${episode[2]}話`;
+  if (episode) return `第${episode[1]}章 第${episode[2]}話`;
   if (chapters[index].kind === 'prologue') return '序章';
   if (chapters[index].kind === 'extra') return `おまけ${chapters.slice(0, index + 1).filter(chapter => chapter.kind === 'extra').length}`;
   return `第${chapters.slice(0, index + 1).filter(chapter => chapter.kind !== 'prologue' && chapter.kind !== 'extra').length}話`;
+}
+function chapterDisplayTitle(chapter) {
+  return chapter.title.replace(/^第\d+章\s*第\d+話\s+/u, '').replace(/^おまけ\d+\s+/u, '');
 }
 function showRoute(focus = false) {
   let id = '';
@@ -99,7 +102,7 @@ function showRoute(focus = false) {
   const chapter = chapters[index];
   document.title = `${chapter.title}｜カス高`;
   byId('chapter-label').textContent = chapterLabel(index);
-  byId('chapter-title').textContent = chapter.title;
+  byId('chapter-title').textContent = chapterDisplayTitle(chapter);
   const countLabel = byId('chapter-character-count');
   if (countLabel) countLabel.textContent = `本文 ${characterCount(chapter.body).toLocaleString('ja-JP')}字`;
   const paragraphs = chapter.body.replace(/\r\n?/g, '\n').split(/\n[\t ]*\n/);
@@ -139,7 +142,7 @@ async function load() {
     byId('chapter-list').replaceChildren(...chapters.map((chapter, index) => {
       const li = document.createElement('li'); const a = document.createElement('a');
       a.href = chapterLink(chapter.id);
-      for (const [className, text] of [['chapter-number', chapterLabel(index)], ['chapter-name', chapter.title], ['chapter-arrow', '→']]) {
+      for (const [className, text] of [['chapter-number', chapterLabel(index)], ['chapter-name', chapterDisplayTitle(chapter)], ['chapter-arrow', '→']]) {
         const span = document.createElement('span'); span.className = className; span.textContent = text;
         if (className === 'chapter-arrow') span.setAttribute('aria-hidden', 'true');
         a.append(span);
