@@ -742,6 +742,105 @@
         "width": 1536,
         "height": 1024
       }
+    ],
+    "chapter2-episode1": [
+      {
+        "src": "assets/illustrations/chapter2-episode1-a.webp",
+        "alt": "グレード2への昇格",
+        "after": "肩を軽く叩かれた。\n　試合で打たれたときとは、違う音がした。\n　プラスは手帳を閉じる。もう一度開こうとして、ユージに手首を掴まれた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode1-b.webp",
+        "alt": "ミルクとの出会いと物陰",
+        "after": "靴音が、角の向こうで止まる。\n　プラスは、壁から肩が出ていないか確かめた。\n　ミルクは両手で地図を胸へ押さえている。その紙の端が服から浮いていたので、プラスは指で、自分たちのいる方を示した。\n　ミルクが紙を引く。\n　二人とも、黙った。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode1-c.webp",
+        "alt": "傷を癒しハンカチを巻くミルク",
+        "after": "結び目を作る指が、途中で一度止まった。\n　きつくしすぎていないか確かめ、端を引き直す。\n　プラスは、少女の手が離れるまで腕を動かさなかった。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "chapter2-episode2": [
+      {
+        "src": "assets/illustrations/chapter2-episode2-a.webp",
+        "alt": "ミルクの余韻",
+        "after": "仲良くなりたい。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode2-b.webp",
+        "alt": "生徒会長としての告知",
+        "after": "ミルク「皆さん、こんにちは。生徒会長のミルク・メイジです」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode2-c.webp",
+        "alt": "イトグチの待遇拡充告知",
+        "after": "イトグチの声「上位のグレードへ進むことで得られる待遇、学内施設の利用資格、支援の範囲については、順次拡充を進める方針です。詳細は、決定したものからお知らせします」",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "chapter2-episode3": [
+      {
+        "src": "assets/illustrations/chapter2-episode3-a.webp",
+        "alt": "小型化してエレベーターへ潜入",
+        "after": "プラスは、乗っていた。\n　同じ箱の中に、二人といる。\n　自分は見つかっていない。\n　そう思っても、顔を出して確かめることはできなかった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode3-b.webp",
+        "alt": "管理担当ジェンドの登場",
+        "after": "名前を言った少女が、一歩近づいた。\n　プラスは壁際へ移る。\n　ジェンドの靴が、こちらの近くを通った。\n　見つかってはいない。\n　それでも、さっきまでの追跡より、身体が固くなった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode3-c.webp",
+        "alt": "床の下にある収容穴",
+        "after": "生徒が、口を閉じた。\n　ジェンドは、一つの蓋の錠を外した。\n　格子を引き上げ、蝶番を軸に壁際へ立てる。\n　足元に、四角い口が開いた。\n　下には、すでに数人がいる。\n　一人が立ちかけ、上から覗く少女の顔を見ると、また腰を下ろした。",
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "chapter2-episode4": [
+      {
+        "src": "assets/illustrations/chapter2-episode4-a.webp",
+        "alt": "収容穴のさらに下の広間",
+        "after": "真下には、落ちた生徒たちがいた。\n　誰かの肩へ別の人が倒れ込み、起き上がろうとする手が、そのローブを押している。顔をしかめながら足首を押さえる人もいた。\n　その先に、階段があった。\n　幅の広い階段だった。上へ行くほど光が届かなくなり、最後の段の向こうは暗い。\n　最後の段の奥に、椅子らしい輪郭があった。\n　そこに、誰かが座っていた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode4-b.webp",
+        "alt": "小型ブラックホールによる救援",
+        "after": "重くして床へ止めた触手も、その先から引かれていた。\n　床に残る部分と、吸着する部分の間で、長い身体が張る。\n　球体の周囲に、幾重にも束ができた。\n　絡まった先端が震える。\n　抜けなかった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode4-c.webp",
+        "alt": "ダクト内の触手とのチェイス",
+        "after": "横へ折れた通路へ入った。\n　身体を捻ると、腰が壁へ当たる。\n　プラスは後ろ足を引き寄せた。\n　触手が、曲がり角へぶつかった。\n　止まらず、角の形に沿って曲がってきた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode4-d.webp",
+        "alt": "パシフィスタ本部とマイナスの名乗り",
+        "after": "マイナス「……ようこそ。平和主義者――パシフィスタの本部へ」",
+        "width": 1536,
+        "height": 1024
+      }
     ]
   }
 }
