@@ -115,6 +115,13 @@
     ],
     "chapter1-episode5": [
       {
+        "src": "assets/illustrations/episode05-d.webp",
+        "alt": "闘技場の通路で資料を抱えたダイと再会するプラス",
+        "after": "プラス「おお。さっきぶり」\nダイ「マイナスさんには、お会いできましたか？」\nプラス「いなかった。また行ってみる」\nダイ「そうでしたか。こちらには、観戦に？」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
         "src": "assets/illustrations/episode05-c.webp",
         "alt": "決闘前の受付でダイと並ぶ",
         "after": "プラスも座った。\n　左手を握る。\n　すぐに開いた。\n　今からずっと力を入れていたら、始まる前に疲れそうだった。",
