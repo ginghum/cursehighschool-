@@ -453,6 +453,20 @@
     ],
     "chapter1-episode20": [
       {
+        "src": "assets/illustrations/episode20-d.webp",
+        "alt": "地下でルサイを引き留め、助命を求めるX",
+        "after": "X「頼む。ルサイは、関係ない。まだ星だって――」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/episode20-e.webp",
+        "alt": "イトグチとの訓練で初めて熱を生むX",
+        "after": "初めは、止め方がわからなかった。\n　出そうとした場所より、広く熱くなる。狙ったものを焼く前に、自分の袖が焦げた。\n　冷気なら、細い線を引けた。\n　この熱は、その線の外へ出た。\n　しかし、壊せるものは増えた。\n　それを、強くなった証拠だと教えられた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
         "src": "assets/illustrations/episode20-c.png",
         "alt": "Xへ声を届ける仲間たち",
         "after": "ルサイ「……立ち上がってくれ、Xくん。一人に戻るためじゃなくて、僕たちのいる方へ」",
