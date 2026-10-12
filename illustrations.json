@@ -272,6 +272,13 @@
     ],
     "chapter1-episode10": [
       {
+        "src": "assets/illustrations/episode10-d.webp",
+        "alt": "部長室で向かい合うプラスとコンケ、その背後で見守るグモン",
+        "after": "コンケ「出てけって、言ったよな」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
         "src": "assets/illustrations/episode10-a.webp",
         "alt": "動き出す背中",
         "after": "返事はなかった。\n　続けて殴るつもりも、なかった。",
