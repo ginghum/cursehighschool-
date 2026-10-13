@@ -23,3 +23,5 @@
 .bookmark-target{background:#ece9d9;border-radius:4px}
 footer{padding-bottom:110px}
 @media(max-width:600px){.bookmark-tools{right:12px;bottom:calc(12px + env(safe-area-inset-bottom));padding:6px;gap:6px}.bookmark-tools button{padding:10px 12px}}
+
+.bookmark-tools{max-width:calc(100vw - 24px);flex-wrap:wrap;justify-content:flex-end}
