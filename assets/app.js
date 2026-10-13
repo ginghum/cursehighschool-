@@ -14,11 +14,14 @@ saveBookmarkButton.textContent = '栞を挟む';
 const resumeBookmarkButton = document.createElement('button');
 resumeBookmarkButton.type = 'button';
 resumeBookmarkButton.textContent = '栞から再開';
+const clearBookmarkButton = document.createElement('button');
+clearBookmarkButton.type = 'button';
+clearBookmarkButton.textContent = '栞を解除';
 const bookmarkNotice = document.createElement('p');
 bookmarkNotice.className = 'bookmark-notice';
 bookmarkNotice.setAttribute('role', 'status');
 bookmarkNotice.setAttribute('aria-live', 'polite');
-bookmarkTools.append(saveBookmarkButton, resumeBookmarkButton, bookmarkNotice);
+bookmarkTools.append(saveBookmarkButton, resumeBookmarkButton, clearBookmarkButton, bookmarkNotice);
 document.body.append(bookmarkTools);
 try {
   const saved = JSON.parse(localStorage.getItem(bookmarkKey));
@@ -32,13 +35,15 @@ function updateBookmarkTools() {
   saveBookmarkButton.hidden = !reading;
   const savedChapter = bookmark && chapters.find(chapter => chapter.id === bookmark.chapterId);
   resumeBookmarkButton.hidden = !savedChapter;
-  bookmarkTools.hidden = !reading && !savedChapter;
+  clearBookmarkButton.hidden = !bookmark;
+  bookmarkTools.hidden = !reading && !bookmark && !bookmarkNotice.textContent;
   resumeBookmarkButton.title = savedChapter ? `${savedChapter.title}の保存した位置へ戻る` : '';
 }
 function announceBookmark(message) {
   clearTimeout(bookmarkNoticeTimer);
   bookmarkNotice.textContent = message;
-  bookmarkNoticeTimer = setTimeout(() => { bookmarkNotice.textContent = ''; }, 4500);
+  updateBookmarkTools();
+  bookmarkNoticeTimer = setTimeout(() => { bookmarkNotice.textContent = ''; updateBookmarkTools(); }, 4500);
 }
 function paragraphText(paragraph) { return paragraph.textContent.trim(); }
 saveBookmarkButton.addEventListener('click', () => {
@@ -58,9 +63,20 @@ saveBookmarkButton.addEventListener('click', () => {
     announceBookmark('この位置に栞を挟みました');
   } catch { announceBookmark('栞を保存できませんでした。ブラウザの保存設定をご確認ください'); }
 });
+clearBookmarkButton.addEventListener('click', () => {
+  try {
+    localStorage.removeItem(bookmarkKey);
+    bookmark = null;
+    pendingBookmark = null;
+    for (const paragraph of byId('chapter-text').querySelectorAll('.bookmark-target')) paragraph.classList.remove('bookmark-target');
+    announceBookmark('栞を解除しました');
+    if (!saveBookmarkButton.hidden) saveBookmarkButton.focus({preventScroll: true});
+    else { byId('contents-title').setAttribute('tabindex', '-1'); byId('contents-title').focus({preventScroll: true}); }
+  } catch { announceBookmark('栞を解除できませんでした。ブラウザの保存設定をご確認ください'); }
+});
 function restoreBookmark(saved) {
   requestAnimationFrame(() => requestAnimationFrame(() => {
-    if (currentChapterId() !== saved.chapterId) return;
+    if (!bookmark || bookmark !== saved || currentChapterId() !== saved.chapterId) return;
     const paragraphs = [...byId('chapter-text').children].filter(node => node.tagName === 'P');
     let paragraph = paragraphs[saved.paragraphIndex];
     if (!paragraph || paragraphText(paragraph) !== saved.text) paragraph = paragraphs.find(node => paragraphText(node) === saved.text) || paragraphs[Math.min(saved.paragraphIndex, paragraphs.length - 1)];
