@@ -901,6 +901,36 @@
         "width": 1536,
         "height": 1024
       }
+    ],
+    "chapter2-episode7": [
+      {
+        "src": "assets/illustrations/chapter2-episode7-a.webp",
+        "alt": "UFOを呼ぶため歌って踊るルト、ユージ、ワン",
+        "after": "ワンは、片足を出すだけで戻した。\n　ルトは、銀色の布を揺らして大きく回る。\n　ユージは、その間で、紙の印どおりに動こうとしていた。\n　やり直しになると、また長くなる。\n　早く終わるためには、ちゃんとやるしかなかった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode7-b.webp",
+        "alt": "拍手しながら山の会場へ現れたレオルカ",
+        "after": "道の入口から、男が歩いてきた。\n　青い長髪を、左右の太い三つ編みにしている。\n　前髪が、まっすぐ揃っていた。\n　紫色の目が、ユージたちの倒れた場所を順番に見た。\n　笑っていた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode7-c.webp",
+        "alt": "レオルカの影を踏み、生成能力を封じるルト",
+        "after": "ユージは、靴と影を見た。\n　さっき三人で踊っていた場所だった。\n　照明が、影を作っていた。\n　今は、その黒い場所の上に、ルトの足がある。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode7-d.webp",
+        "alt": "大型爆弾を弾こうとするユージとレオルカ",
+        "after": "塊の向きが、少し変わった。\n　ユージは、もう一度押した。\n　手を伸ばす。\n　爆弾が、視界の中央から外れかける。\n　しかし、こちらへ来る速さは消えていなかった。",
+        "width": 1536,
+        "height": 1024
+      }
     ]
   }
 }
