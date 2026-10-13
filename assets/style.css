@@ -25,3 +25,7 @@ footer{padding-bottom:110px}
 @media(max-width:600px){.bookmark-tools{right:12px;bottom:calc(12px + env(safe-area-inset-bottom));padding:6px;gap:6px}.bookmark-tools button{padding:10px 12px}}
 
 .bookmark-tools{max-width:calc(100vw - 24px);flex-wrap:wrap;justify-content:flex-end}
+
+.bookmark-actions{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:6px}
+.bookmark-tools .bookmark-toggle{min-width:44px;padding:10px 12px}
+.bookmark-actions button:first-child{background:#656a55;color:#fff;border-color:#656a55}
