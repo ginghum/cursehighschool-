@@ -1,6 +1,83 @@
 'use strict';
 const byId = (id) => document.getElementById(id);
 let chapters = [];
+const bookmarkKey = 'kasuko-story-bookmark-v1';
+let bookmark = null;
+let pendingBookmark = null;
+let bookmarkNoticeTimer;
+const bookmarkTools = document.createElement('aside');
+bookmarkTools.className = 'bookmark-tools';
+bookmarkTools.setAttribute('aria-label', '読書の栞');
+const saveBookmarkButton = document.createElement('button');
+saveBookmarkButton.type = 'button';
+saveBookmarkButton.textContent = '栞を挟む';
+const resumeBookmarkButton = document.createElement('button');
+resumeBookmarkButton.type = 'button';
+resumeBookmarkButton.textContent = '栞から再開';
+const bookmarkNotice = document.createElement('p');
+bookmarkNotice.className = 'bookmark-notice';
+bookmarkNotice.setAttribute('role', 'status');
+bookmarkNotice.setAttribute('aria-live', 'polite');
+bookmarkTools.append(saveBookmarkButton, resumeBookmarkButton, bookmarkNotice);
+document.body.append(bookmarkTools);
+try {
+  const saved = JSON.parse(localStorage.getItem(bookmarkKey));
+  if (saved && typeof saved.chapterId === 'string' && Number.isInteger(saved.paragraphIndex) && saved.paragraphIndex >= 0 && typeof saved.text === 'string' && Number.isFinite(saved.fraction) && saved.fraction >= 0 && saved.fraction <= 1) bookmark = saved;
+} catch {}
+function currentChapterId() {
+  try { return location.hash.startsWith('#chapter=') ? decodeURIComponent(location.hash.slice(9)) : ''; } catch { return ''; }
+}
+function updateBookmarkTools() {
+  const reading = chapters.some(chapter => chapter.id === currentChapterId());
+  saveBookmarkButton.hidden = !reading;
+  const savedChapter = bookmark && chapters.find(chapter => chapter.id === bookmark.chapterId);
+  resumeBookmarkButton.hidden = !savedChapter;
+  bookmarkTools.hidden = !reading && !savedChapter;
+  resumeBookmarkButton.title = savedChapter ? `${savedChapter.title}の保存した位置へ戻る` : '';
+}
+function announceBookmark(message) {
+  clearTimeout(bookmarkNoticeTimer);
+  bookmarkNotice.textContent = message;
+  bookmarkNoticeTimer = setTimeout(() => { bookmarkNotice.textContent = ''; }, 4500);
+}
+function paragraphText(paragraph) { return paragraph.textContent.trim(); }
+saveBookmarkButton.addEventListener('click', () => {
+  const chapterId = currentChapterId();
+  if (!chapters.some(chapter => chapter.id === chapterId)) return;
+  const paragraphs = [...byId('chapter-text').children].filter(node => node.tagName === 'P');
+  if (!paragraphs.length) return;
+  const foundIndex = paragraphs.findIndex(node => node.getBoundingClientRect().bottom > 72);
+  const paragraphIndex = foundIndex < 0 ? paragraphs.length - 1 : foundIndex;
+  const paragraph = paragraphs[paragraphIndex];
+  const rect = paragraph.getBoundingClientRect();
+  const saved = {chapterId, paragraphIndex, text: paragraphText(paragraph), fraction: Math.max(0, Math.min(1, (72 - rect.top) / Math.max(1, rect.height)))};
+  try {
+    localStorage.setItem(bookmarkKey, JSON.stringify(saved));
+    bookmark = saved;
+    updateBookmarkTools();
+    announceBookmark('この位置に栞を挟みました');
+  } catch { announceBookmark('栞を保存できませんでした。ブラウザの保存設定をご確認ください'); }
+});
+function restoreBookmark(saved) {
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    if (currentChapterId() !== saved.chapterId) return;
+    const paragraphs = [...byId('chapter-text').children].filter(node => node.tagName === 'P');
+    let paragraph = paragraphs[saved.paragraphIndex];
+    if (!paragraph || paragraphText(paragraph) !== saved.text) paragraph = paragraphs.find(node => paragraphText(node) === saved.text) || paragraphs[Math.min(saved.paragraphIndex, paragraphs.length - 1)];
+    if (!paragraph) return;
+    const rect = paragraph.getBoundingClientRect();
+    window.scrollTo({top: Math.max(0, window.scrollY + rect.top + rect.height * saved.fraction - 72), behavior: 'instant'});
+    paragraph.classList.add('bookmark-target');
+    setTimeout(() => paragraph.classList.remove('bookmark-target'), 1800);
+    announceBookmark('栞の位置から再開しました');
+  }));
+}
+resumeBookmarkButton.addEventListener('click', () => {
+  if (!bookmark || !chapters.some(chapter => chapter.id === bookmark.chapterId)) return;
+  if (currentChapterId() === bookmark.chapterId) restoreBookmark(bookmark);
+  else { pendingBookmark = bookmark; location.hash = chapterLink(bookmark.chapterId); }
+});
+updateBookmarkTools();
 let illustrations = {};
 let showIllustrations = true;
 try { showIllustrations = localStorage.getItem('kasuko-story-illustrations') !== 'off'; } catch {}
@@ -91,6 +168,7 @@ function showRoute(focus = false) {
   const reading = index >= 0;
   byId('contents').hidden = reading;
   byId('reader').hidden = !reading;
+  updateBookmarkTools();
   if (!reading) {
     document.title = 'カス高｜メインストーリー';
     if (focus) { byId('contents-title').setAttribute('tabindex', '-1'); byId('contents-title').focus(); }
@@ -120,7 +198,11 @@ function showRoute(focus = false) {
   }
   if (focus) byId('chapter-title').focus();
 }
-window.addEventListener('hashchange', () => { showRoute(true); window.scrollTo(0, 0); });
+window.addEventListener('hashchange', () => {
+  showRoute(true);
+  window.scrollTo(0, 0);
+  if (pendingBookmark) { const saved = pendingBookmark; pendingBookmark = null; restoreBookmark(saved); }
+});
 async function load() {
   try {
     const response = await fetch('./stories.json', {cache: 'no-cache'});
