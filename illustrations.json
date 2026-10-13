@@ -841,6 +841,36 @@
         "width": 1536,
         "height": 1024
       }
+    ],
+    "chapter2-episode5": [
+      {
+        "src": "assets/illustrations/chapter2-episode5-a.webp",
+        "alt": "マイナスの傷と疲労を気遣うダンチョー、シグマ、パスター",
+        "after": "プラスは顔を上げた。\n　マイナスの手首を見る。\n　傷のところへ、ダンチョーが清潔な布を当てていた。彼女は話すために顔をこちらへ向けたまま、その手だけを預けている。\n　自分を引き上げたとき、どこへ腕を擦ったのだろう。\n　気づかなかった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode5-b.webp",
+        "alt": "向かい合い、家族について話すマイナスとプラス",
+        "after": "マイナス「あなたが、プラス・ゼロなのは、間違いない」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode5-c.webp",
+        "alt": "プラスの胸ぐらを掴んで警告するグモン",
+        "after": "グモン「もう一度あそこへ行くなら、俺がお前を止める。……覚えとけ」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode5-d.webp",
+        "alt": "旧校舎裏の倉庫を出て、ハンカチを見つめるプラス",
+        "after": "言葉が、別の場所からその顔へ近づいてくる。\n　近づいてきても、まだ、触れなかった。\n　プラスは、布の端を指で整えた。\n　傷は痛まない。\n　治してもらったところだけは、確かに治っていた。",
+        "width": 1536,
+        "height": 1024
+      }
     ]
   }
 }
