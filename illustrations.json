@@ -871,6 +871,36 @@
         "width": 1536,
         "height": 1024
       }
+    ],
+    "chapter2-episode6": [
+      {
+        "src": "assets/illustrations/chapter2-episode6-a.webp",
+        "alt": "ユージの夕飯を残して帰りを待つプラスとランス",
+        "after": "ランスは、空いた皿を重ねた。\n　ユージの皿だけが、机に残った。\n　上へ別の皿をかぶせると、料理が見えなくなる。\n　プラスは、その丸い蓋を見た。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode6-b.webp",
+        "alt": "学校と城の灯りを目印に夜の裏山を登るプラスとランス",
+        "after": "二本目を受け取り、プラスも土へついた。\n　棒の先から、固い場所の感触が手に伝わった。\n　急げば早く着くと思っていた。\n　それだけでは、上へ行けない道だった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode6-c.webp",
+        "alt": "ヴァインの背中の虫を取るバグと、驚いたプラスとランス",
+        "after": "明かりの中へ、虫が出てきた。\n　指の間で、小さな脚が動いた。\n　プラスは、虫と、二人の少女の顔を順番に見た。\n　金髪の少女は両肩を落とし、胸へ手を当てていた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode6-d.webp",
+        "alt": "大きな音がした山の上へ急ぐバグ、プラス、ランス、ヴァイン",
+        "after": "城の光が、枝の間で一度隠れた。\n　四つの灯りは、止まらなかった。\n　ユージの名前を呼ぶために、プラスは息を吸った。",
+        "width": 1536,
+        "height": 1024
+      }
     ]
   }
 }
