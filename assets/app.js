@@ -31,7 +31,7 @@ bookmarkNotice.className = 'bookmark-notice';
 bookmarkNotice.setAttribute('role', 'status');
 bookmarkNotice.setAttribute('aria-live', 'polite');
 bookmarkActions.append(saveBookmarkButton, resumeBookmarkButton, clearBookmarkButton);
-bookmarkTools.append(bookmarkToggleButton, bookmarkActions, bookmarkNotice);
+bookmarkTools.append(bookmarkActions, bookmarkToggleButton, bookmarkNotice);
 document.body.append(bookmarkTools);
 try {
   const saved = JSON.parse(localStorage.getItem(bookmarkKey));
@@ -42,8 +42,11 @@ function currentChapterId() {
 }
 function updateBookmarkTools() {
   const reading = chapters.some(chapter => chapter.id === currentChapterId());
-  bookmarkActions.hidden = !bookmarkToolsExpanded;
-  bookmarkToggleButton.textContent = bookmarkToolsExpanded ? '閉じる' : '栞';
+  bookmarkTools.classList.toggle('bookmark-tools-expanded', bookmarkToolsExpanded);
+  bookmarkActions.inert = !bookmarkToolsExpanded;
+  bookmarkActions.setAttribute('aria-hidden', String(!bookmarkToolsExpanded));
+  bookmarkToggleButton.textContent = bookmarkToolsExpanded ? '→' : '←';
+  bookmarkToggleButton.setAttribute('aria-label', bookmarkToolsExpanded ? '栞メニューを収納' : '栞メニューを開く');
   bookmarkToggleButton.setAttribute('aria-expanded', String(bookmarkToolsExpanded));
   bookmarkToggleButton.title = bookmarkToolsExpanded ? '栞メニューを小さくする' : '栞メニューを開く';
   saveBookmarkButton.hidden = !reading;
