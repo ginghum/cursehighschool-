@@ -17,11 +17,21 @@ resumeBookmarkButton.textContent = '栞から再開';
 const clearBookmarkButton = document.createElement('button');
 clearBookmarkButton.type = 'button';
 clearBookmarkButton.textContent = '栞を解除';
+const bookmarkToggleButton = document.createElement('button');
+bookmarkToggleButton.type = 'button';
+bookmarkToggleButton.className = 'bookmark-toggle';
+bookmarkToggleButton.setAttribute('aria-controls', 'bookmark-actions');
+const bookmarkActions = document.createElement('div');
+bookmarkActions.id = 'bookmark-actions';
+bookmarkActions.className = 'bookmark-actions';
+let bookmarkToolsExpanded = false;
+try { bookmarkToolsExpanded = localStorage.getItem('kasuko-story-bookmark-tools') === 'open'; } catch {}
 const bookmarkNotice = document.createElement('p');
 bookmarkNotice.className = 'bookmark-notice';
 bookmarkNotice.setAttribute('role', 'status');
 bookmarkNotice.setAttribute('aria-live', 'polite');
-bookmarkTools.append(saveBookmarkButton, resumeBookmarkButton, clearBookmarkButton, bookmarkNotice);
+bookmarkActions.append(saveBookmarkButton, resumeBookmarkButton, clearBookmarkButton);
+bookmarkTools.append(bookmarkToggleButton, bookmarkActions, bookmarkNotice);
 document.body.append(bookmarkTools);
 try {
   const saved = JSON.parse(localStorage.getItem(bookmarkKey));
@@ -32,6 +42,10 @@ function currentChapterId() {
 }
 function updateBookmarkTools() {
   const reading = chapters.some(chapter => chapter.id === currentChapterId());
+  bookmarkActions.hidden = !bookmarkToolsExpanded;
+  bookmarkToggleButton.textContent = bookmarkToolsExpanded ? '閉じる' : '栞';
+  bookmarkToggleButton.setAttribute('aria-expanded', String(bookmarkToolsExpanded));
+  bookmarkToggleButton.title = bookmarkToolsExpanded ? '栞メニューを小さくする' : '栞メニューを開く';
   saveBookmarkButton.hidden = !reading;
   const savedChapter = bookmark && chapters.find(chapter => chapter.id === bookmark.chapterId);
   resumeBookmarkButton.hidden = !savedChapter;
@@ -45,6 +59,11 @@ function announceBookmark(message) {
   updateBookmarkTools();
   bookmarkNoticeTimer = setTimeout(() => { bookmarkNotice.textContent = ''; updateBookmarkTools(); }, 4500);
 }
+bookmarkToggleButton.addEventListener('click', () => {
+  bookmarkToolsExpanded = !bookmarkToolsExpanded;
+  updateBookmarkTools();
+  try { localStorage.setItem('kasuko-story-bookmark-tools', bookmarkToolsExpanded ? 'open' : 'closed'); } catch {}
+});
 function paragraphText(paragraph) { return paragraph.textContent.trim(); }
 saveBookmarkButton.addEventListener('click', () => {
   const chapterId = currentChapterId();
