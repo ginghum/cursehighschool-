@@ -931,6 +931,29 @@
         "width": 1536,
         "height": 1024
       }
+    ],
+    "chapter2-episode8": [
+      {
+        "src": "assets/illustrations/chapter2-episode8-a.webp",
+        "alt": "夜の森で爆弾を迎撃するランスとバグ、木々の間から狙うレオルカ",
+        "after": "ランス「……投げんの、上手すぎだろ」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode8-b.webp",
+        "alt": "レオルカの影を踏み足首を押さえるルトと、決着の拳を打つプラス",
+        "after": "拳が、レオルカの身体へ当たった。\n　その瞬間に重さを増す。\n　腕の向こうで、男の胸が押し戻された。吐いた息が、プラスの耳へ届く。\n　ルトの手から、足首が抜けた。\n　レオルカの身体が後ろへ倒れる。\n　木の根を越え、土の上へ落ちた。\n　青い三つ編みが、肩の両側へ広がる。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode8-c.webp",
+        "alt": "救援の灯りを見下ろし、戦いを静かに見届けるベレー",
+        "after": "誰に聞かせるでもない声だった。\n　指の間から、葉を放す。\n　葉は、救援の生徒たちが通った道へ届く前に、枝へ引っかかった。",
+        "width": 1536,
+        "height": 1024
+      }
     ]
   }
 }
