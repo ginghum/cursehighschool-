@@ -1014,6 +1014,29 @@
         "width": 1536,
         "height": 1024
       }
+    ],
+    "chapter2-episode11": [
+      {
+        "src": "assets/illustrations/chapter2-episode11-a.webp",
+        "alt": "落とした包みを返そうとするミルクと、怯えて頭を下げる生徒",
+        "after": "何についての不注意なのか、ミルクは聞けなかった。\n　落としたことだろうか。\n　拾うのが遅かったことだろうか。\n　ここで自分が足を止めたことまで、相手にとっては謝る理由になるのだろうか。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode11-b.webp",
+        "alt": "プラスを追おうとしたミルクの前に現れるイトグチ",
+        "after": "ミルク「あの、少しだけ……」\nイトグチ「皆様、お揃いです」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode11-c.webp",
+        "alt": "女帝の玉座に座るエンプレスと、その隣に立つミルク",
+        "after": "エンプレス・メイジ。\n　カース帝国を治める女帝。\n　そして、この学園の、本当の生徒会長。",
+        "width": 1536,
+        "height": 1024
+      }
     ]
   }
 }
