@@ -977,6 +977,29 @@
         "width": 1536,
         "height": 1024
       }
+    ],
+    "chapter2-episode10": [
+      {
+        "src": "assets/illustrations/chapter2-episode10-a.webp",
+        "alt": "美術サークルの入口でトリエのバリアに阻まれるプラス",
+        "after": "トリエ「入るな」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode10-b.webp",
+        "alt": "美食サークルの店でボンボリとホオズキに料理を振る舞われるプラス",
+        "after": "プラス「……これも、うまい」\nホオズキ「残ったところも、ごはんですでーす」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode10-c.webp",
+        "alt": "食事を終え、カガチと生徒会長について話すプラス",
+        "after": "カガチ「そのために、生徒会長を倒そうとしている」",
+        "width": 1536,
+        "height": 1024
+      }
     ]
   }
 }
