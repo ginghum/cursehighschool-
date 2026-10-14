@@ -954,6 +954,29 @@
         "width": 1536,
         "height": 1024
       }
+    ],
+    "chapter2-episode9": [
+      {
+        "src": "assets/illustrations/chapter2-episode9-a.webp",
+        "alt": "新聞部で誤報についてユーヒとチックへ話すプラス",
+        "after": "ユーヒ「今から、この記事を訂正するのは難しいっす」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode9-b.webp",
+        "alt": "新聞部の机で見つけた今月の失踪者6名のメモ",
+        "after": "『今月の失踪者メモ、グレード問わず6名』",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode9-c.webp",
+        "alt": "保健室でランスへ謝るバグと、二人を見守るプラス",
+        "after": "ランス「……ありがとう。あれ、助かった」",
+        "width": 1536,
+        "height": 1024
+      }
     ]
   }
 }
