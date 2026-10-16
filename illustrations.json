@@ -1113,6 +1113,29 @@
         "width": 1536,
         "height": 1024
       }
+    ],
+    "chapter2-episode15": [
+      {
+        "src": "assets/illustrations/chapter2-episode15-a.webp",
+        "alt": "コンケが荷物を届けた中庭で、ダンカチとデヂが祭典の準備を進める",
+        "after": "ダンカチ「そこ、もう触っていいですか！」\nデヂ「こっちはいい。向こうはまだぁ。触っていいか聞く前に、指を乗せんなぁ」\nダンカチ「乗せてないです！」\nデヂ「乗せる形してんだよぉ」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode15-b.webp",
+        "alt": "人目のない石壁へデヂを追い込み、穏やかな声で脅すベレー",
+        "after": "ベレー「だったら、分かっているわね」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode15-c.webp",
+        "alt": "夜の寮で、プラスとランスに目撃した脅迫を相談するコンケ",
+        "after": "プラス「聞く。コンケが見たところから、話してくれ」",
+        "width": 1536,
+        "height": 1024
+      }
     ]
   }
 }
