@@ -1143,6 +1143,44 @@
         "width": 1536,
         "height": 1024
       }
+    ],
+    "chapter2-episode16": [
+      {
+        "src": "assets/illustrations/chapter2-episode16-a.webp",
+        "alt": "寮で六冊の手帳と図面を並べ、デヂの行き先を推理するプラス、ランス、コンケ",
+        "after": "ランス「山。俺らが襲われたとこ」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode16-b.webp",
+        "alt": "裏山の排水路で、涙を流しながらバグとヴァインをレジンで捕らえるデヂ",
+        "after": "デヂ「ごめんなぁ。ごめん……こっち、見んなぁ」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode16-c.webp",
+        "alt": "過去の作業場で、怯えるデヂへ助けの手を差し出すベレー",
+        "after": "ベレー「大丈夫。私が、何とかしてあげる」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode16-d.webp",
+        "alt": "石積みと木々の陰からデヂの告白を見届けるベレー",
+        "after": "帽子の縁へついた葉を、一枚、摘まんだ。\n　払わず、足元へ置いた。\n　来た道とは違う、山の下へ続く道を選んだ。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode16-e.webp",
+        "alt": "ダンカチが消えた翌朝、赤いハチマキを前にプラスの袖を掴むデヂ",
+        "after": "デヂ「……まだ、だよなぁ」",
+        "width": 1536,
+        "height": 1024
+      }
     ]
   }
 }
+
