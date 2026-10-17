@@ -1247,6 +1247,29 @@
         "width": 1536,
         "height": 1024
       }
+    ],
+    "chapter2-episode19": [
+      {
+        "src": "assets/illustrations/chapter2-episode19-a.webp",
+        "alt": "ダンカチの生徒手帳の星を拭き、インクの色を確かめるデヂとランス",
+        "after": "プラス「……落ちた」\nユージ「インクか、これ」\nデヂ「たぶん、そうだぁ。星の色が、変わったんじゃねえ。上に、塗ってある」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode19-b.webp",
+        "alt": "練習中にランスの攻撃を受け、瞬時に傷が癒えたミルクと驚くプラス",
+        "after": "ユージ「……今、当たったよな」\nコンケ「ああ」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode19-c.webp",
+        "alt": "記念日のあと皆でカラオケへ行こうとミルクを誘うプラス",
+        "after": "プラス「じゃ、約束」\nミルク「はい」",
+        "width": 1536,
+        "height": 1024
+      }
     ]
   }
 }
