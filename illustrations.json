@@ -1321,6 +1321,36 @@
         "width": 1536,
         "height": 1024
       }
+    ],
+    "chapter2-episode21": [
+      {
+        "src": "assets/illustrations/chapter2-episode21-a.webp",
+        "alt": "傷が治ったミルクを警戒し、距離を取って観察するベレー",
+        "after": "ミルクは、自分の足元を見すぎないようにした。\n　息を吐く。\n　掌を上げる。\n　ベレーは、その小さな立て直しまで見ていた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode21-b.webp",
+        "alt": "観客の生徒手帳から星色を拭い、吸収の停止を確かめるデヂとプラス",
+        "after": "プラス「合ってた。色、落とせばいいんだ」\nランス「この人の分は、止められる。向こうに残ってる運まで消えるかは、まだ分かんねえ」\nプラス「うん。……でも、これ以上、取られねえ」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode21-c.webp",
+        "alt": "会場入口の机で、ツクリとドーマへ協力を頼み客席の図を確かめるプラス",
+        "after": "ドーマが、少しだけ顔を上げた。\n　それから、図の向きを変え、係からも見えるように置いた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode21-d.webp",
+        "alt": "背中の触手で拘束を脱し、距離を取ったベレーと向き合うミルク",
+        "after": "背中から伸びた触手が、彼女の両脇で持ち上がっていた。",
+        "width": 1536,
+        "height": 1024
+      }
     ]
   }
 }
