@@ -1277,6 +1277,36 @@
         "width": 1536,
         "height": 1024
       }
+    ],
+    "chapter2-episode20": [
+      {
+        "src": "assets/illustrations/chapter2-episode20-a.webp",
+        "alt": "護衛に付き添われた来賓たちと、作品の搬入を待つ中庭の空の台座",
+        "after": "台座の周りを、細い綱が囲んでいた。\n　隣には、ベレーの名と作品の披露を知らせる札がある。時刻の部分だけ、案内が差し替えられていた。\n　決闘後、準備が整い次第。\n　プラスは、その短い文字を読んだ。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode20-b.webp",
+        "alt": "ミルクの決闘を初めて知ったエンプレスと、正式な成立を説明するジャッジ",
+        "after": "エンプレス「あの子に、わざわざ戦わせる必要があるの？」\nジャッジ「双方が、自分の意思で決闘を選んでおります」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode20-c.webp",
+        "alt": "闘技場の入口で、ミルクを送り出すプラス",
+        "after": "プラス「うん。行ってこい」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode20-d.webp",
+        "alt": "ミルクの掌打を不自然な偶然でかわすベレー",
+        "after": "プラスは、立ち上がりかけた足を止めた。\n　競技場の中で、ミルクが次の足を踏み直した。\n　ベレーは、まだ笑っていた。",
+        "width": 1536,
+        "height": 1024
+      }
     ]
   }
 }
