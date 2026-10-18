@@ -1358,6 +1358,50 @@
         "width": 1536,
         "height": 1024
       }
+    ],
+    "chapter2-episode22": [
+      {
+        "src": "assets/illustrations/chapter2-episode22-a.webp",
+        "alt": "逸れた触手が客席の縁を砕き、ミルクが引き戻す中で回避するベレー",
+        "after": "ミルクは触手を引き戻した。\n　自分の脇へ戻るまで、先端から目が離せなかった。\n　その間に、ベレーは別の場所へ移っていた。\n　こちらへ飛び込んではこない。\n　触手がどこから折れ、どこまで戻るのか、最後まで見ていた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode22-b.webp",
+        "alt": "瞬時に生成した全身甲冑と盾で、ゆきめろを爆発から庇うランス",
+        "after": "ゆきめろが頷いた。\n　ランスは盾を残したまま、顔の前の金属だけを開いた。\n　コバルが走ってきた。\n　オリハも、先ほどの部員を通路の外へ押し戻してから振り向いた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode22-c.webp",
+        "alt": "自分の部品を混ぜて不発を生み、レオルカへ踏み込むランス",
+        "after": "レオルカ「……あれ」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode22-d.webp",
+        "alt": "殺人鬼を追ってたどり着いたアトリエで、ベレーに見惚れる若き探偵トリエ",
+        "after": "その仕草を見たとき、用意していた言葉が一つ、出なくなった。\n　見惚れていた。\n　自分でも、それが分かった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode22-e.webp",
+        "alt": "体術で攻めるトリエのバリアへ腐食毒を押し当て、突破を図るコンケ",
+        "after": "透明な面が、薄く濁った。\n　中心が抜ける。\n　左手が、前へ通った。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode22-f.webp",
+        "alt": "ローブを着ないまま落ち着いて現れ、妨害する部員たちを凍らせるXと振り向くプラス",
+        "after": "プラスは振り返った。\n　茶色い髪が見えた。\n　見慣れたローブが、なかった。\n　白いシャツに、暗い色の上着。足元には、裾を引きずらない細い影が落ちている。\n　Xが、通路を歩いてきた。",
+        "width": 1536,
+        "height": 1024
+      }
     ]
   }
 }
