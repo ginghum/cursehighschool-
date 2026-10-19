@@ -1412,16 +1412,23 @@
         "height": 1024
       },
       {
-        "src": "assets/illustrations/chapter2-episode23-b.webp",
-        "alt": "幼いベレーが粗末な部屋で木彫りの鳥を見つめる",
-        "after": "最初に作った鳥は、片方の羽が厚すぎた。\n　削ると、今度は首が細く見えた。\n　何日もかけて、同じ鳥を見た。\n　誰にも見せなかった。\n　見せる相手がいなかった。",
+        "src": "assets/illustrations/chapter2-episode23-b-longhair.webp",
+        "alt": "長く絡まった髪の幼いベレーが粗末な部屋で木彫りの鳥を見つめる",
+        "after": "捨てられた木の切れ端を、少しずつ削った。\n　最初に作った鳥は、片方の羽が厚すぎた。\n　削ると、今度は首が細く見えた。\n　何日もかけて、同じ鳥を見た。\n　誰にも見せなかった。\n　見せる相手がいなかった。",
         "width": 1536,
         "height": 1024
       },
       {
-        "src": "assets/illustrations/chapter2-episode23-c.webp",
-        "alt": "すべてを知る領主に作品とともに迎えられるベレー",
-        "after": "領主は、椅子を勧めた。\n　温かい飲み物が出た。\n　ベレーが持つ前に、器が倒れることはなかった。",
+        "src": "assets/illustrations/chapter2-episode23-g-awakening.webp",
+        "alt": "長い乱れ髪のベレーが作品に向き合い狂気の芸術へ目覚める",
+        "after": "笑っていた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode23-c-faceless.webp",
+        "alt": "顔の見えない領主に作品とともに迎えられる長髪のベレー",
+        "after": "椅子を勧める手が動いた。\n　ベレーは、立ったままでいた。\n　座ってよいと、もう一度言われた。\n　汚れた裾を、自分の足の下へ引き込んだ。\n　長い髪が椅子へ触れた。絡まったところを直そうとして、やめた。",
         "width": 1536,
         "height": 1024
       },
