@@ -1402,6 +1402,50 @@
         "width": 1536,
         "height": 1024
       }
+    ],
+    "chapter2-episode23": [
+      {
+        "src": "assets/illustrations/chapter2-episode23-a.webp",
+        "alt": "初めて牙を届かせ、ベレーの左肩を傷つけたミルク",
+        "after": "ミルクが自分で向けた牙が、初めて相手を傷つけた。\n　触手の勢いを止めるため、片膝を床へつく。\n　指先でも身体を支え、相手から目を離さずに立ち直った。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode23-b.webp",
+        "alt": "幼いベレーが粗末な部屋で木彫りの鳥を見つめる",
+        "after": "最初に作った鳥は、片方の羽が厚すぎた。\n　削ると、今度は首が細く見えた。\n　何日もかけて、同じ鳥を見た。\n　誰にも見せなかった。\n　見せる相手がいなかった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode23-c.webp",
+        "alt": "すべてを知る領主に作品とともに迎えられるベレー",
+        "after": "領主は、椅子を勧めた。\n　温かい飲み物が出た。\n　ベレーが持つ前に、器が倒れることはなかった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode23-d.webp",
+        "alt": "傷が治っても恐怖と疲れを残したまま構え直すミルク",
+        "after": "ミルクは、構えた。\n　自分の傷は、もうなかった。\n　疲れは、あった。\n　相手にも、あった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode23-e.webp",
+        "alt": "触手で逃げ道を狭め、右の掌底をベレーへ打ち込むミルク",
+        "after": "今度は、当たった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode23-f.webp",
+        "alt": "勝利後、膝をついたミルクの右手を左手で受け止めるプラス",
+        "after": "プラスが差し出した左手へ、自分の右手を重ねた。\n　起こすために引かれることは、なかった。\n　そのまま、握っていてくれた。",
+        "width": 1536,
+        "height": 1024
+      }
     ]
   }
 }
