@@ -1453,6 +1453,50 @@
         "width": 1536,
         "height": 1024
       }
+    ],
+    "chapter2-episode24": [
+      {
+        "src": "assets/illustrations/chapter2-episode24-a.webp",
+        "alt": "停学中のXから労いの言葉を受けるツクリ、ドーマ、ルサイ",
+        "after": "X「いい仕事だった」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode24-b.webp",
+        "alt": "ダンカチと保健委員に支えられ、慎重にレジンを退かせるデヂ",
+        "after": "小さな汗が、眼鏡の脇を流れた。\n　拭かなかった。\n　指先を見て、奥を見て、また指へ目を戻した。\n　人の手首が、空気へ出た。\n　何も握っていなかった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode24-f.webp",
+        "alt": "訂正した新聞を届けたユーヒから、もう一部を買うプラス",
+        "after": "プラス「これ、いくら？」\nユーヒ「それは、確認してもらう分なんで」\nプラス「じゃ、部屋で読むやつ、もう一部」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode24-c.webp",
+        "alt": "プラス、ユージ、ランス、コンケとカラオケで歌うミルク",
+        "after": "歌は、最後まで続いた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode24-d.webp",
+        "alt": "ツキチヨにプラスの監視を命じるエンプレス",
+        "after": "エンプレス「ツキチヨ。あのプラスを、見ておきなさい」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/chapter2-episode24-e.webp",
+        "alt": "謎の人物の視点で見る、ローブ姿の3人と自由サークル結成の夢",
+        "after": "謎の人物「俺たちはこれから学園の自由を守る『自由サークル』だ！」",
+        "width": 1536,
+        "height": 1024
+      }
     ]
   }
 }
