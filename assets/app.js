@@ -196,7 +196,7 @@ function chapterLabel(index) {
   const episode = chapters[index].id.match(/^chapter(\d+)-episode(\d+)$/);
   if (episode) return `第${episode[2]}話`;
   if (chapters[index].kind === 'prologue') return '序章';
-  if (chapters[index].kind === 'extra') return `おまけ${chapters.slice(0, index + 1).filter(chapter => chapter.kind === 'extra').length}`;
+  if (chapters[index].kind === 'extra') return chapters[index].title.match(/^おまけ[0-9]+/)?.[0] || 'おまけ';
   return `第${chapters.slice(0, index + 1).filter(chapter => chapter.kind !== 'prologue' && chapter.kind !== 'extra').length}話`;
 }
 function showRoute(focus = false) {
