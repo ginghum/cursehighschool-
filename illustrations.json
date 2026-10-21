@@ -1573,6 +1573,36 @@
         "width": 1536,
         "height": 1024
       }
+    ],
+    "extra5": [
+      {
+        "src": "assets/illustrations/extra5-lusai-handshake.webp",
+        "alt": "試験で初めて勝ったルサイと、対等な相手として握手するゼクサー",
+        "after": "彼が笑った。\n　私も、笑った。\n　教室の窓の外では、雪が解け始めていた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/extra5-lusai-circle.webp",
+        "alt": "設立当初の勉強サークルで教えるXと、菓子を差し出す副部長ルサイ",
+        "after": "真面目で、偉そうで、少し子どもっぽい。\n　私の知っている彼だった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/extra5-lusai-return.webp",
+        "alt": "一か月ぶりに部室へ戻ったXに、言葉を選びながら茶を淹れるルサイ",
+        "after": "彼は、座った。\n　食べた。\n　感想はなかった。\n　私は、お茶を淹れた。\n　彼のカップから、湯気が上がった。\n　それを見ていると、立っているために力の要った脚から、少しずつ力が抜けた。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/extra5-lusai-wait.webp",
+        "alt": "第1章の終わり、Xの空席の隣で笑顔をほどき、涙を拭うルサイ",
+        "after": "返事は、なかった。\n　当たり前だった。\n　私は顔を拭き、彼の机へ置いた紙を一枚引いた。\n　菓子の候補を書こうとしていた紙だった。\n　端へ、小さく別の言葉を書いた。",
+        "width": 1536,
+        "height": 1024
+      }
     ]
   }
 }
