@@ -1550,6 +1550,29 @@
         "width": 1536,
         "height": 1024
       }
+    ],
+    "extra4": [
+      {
+        "src": "assets/illustrations/extra4-doma-rescue.webp",
+        "alt": "眼鏡を掛ける前のドーマがレーザーで不良を退け、ツクリを守る",
+        "after": "ツクリ「もういい、もう、帰ろう……！」",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/extra4-etiquette-practice.webp",
+        "alt": "寮室で眼鏡を掛けて敬語を練習するドーマと、質問役を務めるツクリ",
+        "after": "扉を閉じる前に、二人で笑った。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/extra4-study-interview.webp",
+        "alt": "勉強の跡を確認するXと、入部を認められるドーマとツクリ",
+        "after": "返事は、いつもの調子だった。\n　ツクリは、袋へ手を入れた。\n　書きためた紙は、端が少し折れている。\n　引き伸ばして、机へ置いた。",
+        "width": 1536,
+        "height": 1024
+      }
     ]
   }
 }
