@@ -1603,6 +1603,36 @@
         "width": 1536,
         "height": 1024
       }
+    ],
+    "extra8": [
+      {
+        "src": "assets/illustrations/extra8-a-duel.webp",
+        "alt": "決闘に勝ち、余裕の笑みを浮かべるオリハ",
+        "after": "笑みは保った。\n　強く見下ろしすぎず、ほんの少しだけ顎を引く。\n　観客席から見れば、目元に影が落ちるはずだった。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/extra8-b-welcome.webp",
+        "alt": "ゆきめろに隣の席へ誘われ、照れを隠すオリハ",
+        "after": "少し、耳が熱くなった。\n　困る。\n　何と返せば、感じのいい人物になるのか分からない。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/extra8-c-aid.webp",
+        "alt": "転んだオリハの擦り傷を静かに手当てするランス",
+        "after": "差し出された。\n　オリハは、受け取った。\n　金属だから冷たかった。\n　握るところに、尖った部分はなかった。\n　床へつく先も、針のようにはなっていない。",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "src": "assets/illustrations/extra8-d-together.webp",
+        "alt": "ゆきめろの隣に座り、ランスと作品を語るオリハ",
+        "after": "ただ、その日は一度だけ、隣から小さな感想が聞こえたとき、次の台詞を探すのをやめた。",
+        "width": 1536,
+        "height": 1024
+      }
     ]
   }
 }
